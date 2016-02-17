@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="IonicProjectTemplates" Version="1.0" Language="en-US" Publisher="Tools for Apache Cordova" />
+    <DisplayName>Ionic Project Templates for Visual Studio</DisplayName>
+    <Description xml:space="preserve">Three templates are provided in this extension:
+    •Ionic Blank Template 
+    •Ionic SideMenu Template 
+    •Ionic Tab Template 
+    </Description>
+    <License>LICENSE.txt</License>
+    <Icon>Ionic_Logo.svg.png</Icon>
+    <Tags>ionic, html5, cordova, TACO, mobile, app</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IonicTabsTemplate.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IonicSideMenuTemplate.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IonicBlankAppTemplate.zip" />
+  </Assets>
+</PackageManifest>

@@ -1,7 +1,7 @@
 {
   "name": "ionic-tabs",
   "version": "1.1.1",
-  "description": "Ionic Tabs template: An Ionic project",
+  "description": "An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
